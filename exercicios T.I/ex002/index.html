@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>agora tem que ir</title>
+</head>
+<body>
+    <h1>imagens dinamicas</h1>
+    <picture>
+        <source media="(max-width:750px)" srcset="imagens/foto-P.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-M.png" type="image/png">
+        <img src="imagens/foto-G.png" alt="imagem flexível">
+    </picture>
+    <h1>reproduzindo audios</h1>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/Push Me - Twin Musicom.mp3" type="audio/mpeg">
+    </audio>
+    <p>infelizmente o seu navegador não e compativel. baixe o conteudo <a href="midia/Push Me - Twin Musicom.mp3">clicando aqui</a></p>
+</body>
+</html>
